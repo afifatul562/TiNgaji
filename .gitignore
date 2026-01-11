@@ -1,0 +1,36 @@
+# CodeIgniter 4
+.env
+.env.*
+!.env.example
+
+# writable directory
+writable/cache/*
+!writable/cache/index.html
+!writable/cache/.gitkeep
+writable/logs/*
+!writable/logs/index.html
+!writable/logs/.gitkeep
+writable/session/*
+!writable/session/index.html
+!writable/session/.gitkeep
+writable/uploads/*
+!writable/uploads/index.html
+!writable/uploads/.gitkeep
+writable/debugbar/*
+!writable/debugbar/.gitkeep
+
+# Optional: Uncomment if you want to ignore vendor directory
+# vendor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
