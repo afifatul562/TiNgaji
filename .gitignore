@@ -19,8 +19,8 @@ writable/uploads/*
 writable/debugbar/*
 !writable/debugbar/.gitkeep
 
-# Optional: Uncomment if you want to ignore vendor directory
-# vendor/
+# Vendor directory (can be generated with composer install)
+vendor/
 
 # IDE
 .vscode/
